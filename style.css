@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 12px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+}
+.header ul li{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button{
+    background-color:dodgerblue;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    margin-right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main{
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputDiv{
+    width: 550px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+
+.inputDiv:hover{
+    box-shadow: 5px 5px 10px grey;
+}
+
+.inputDiv i{
+    margin-left: 20px;
+    color: gray;
+}
+
+.inputDiv input{
+    outline: none;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttonDiv button{
+    background:none;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.buttonDiv button:hover{
+    border: 1px solid lightgray;
+}
+
+.languageDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.languageDiv p{
+    margin: 5px;
+}
+
+.languageDiv a{
+    margin: 5px;
+}
+
+.footer{
+    background-color: lightgoldenrodyellow;
+    height: 10vh;
+}
+
+.footerOne{
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    padding-left: 20px;
+}
+
+.footerTwo{
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+
+.footerTwo .div1{
+    width: 50%;
+}
+
+.footerTwo .div1 ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.footerTwo .div2 ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    padding-left: 20px;
+    justify-content:flex-end;
+}
+
+.footerTwo .div2 ul li{
+    margin: 10px;
+}
