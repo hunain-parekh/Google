@@ -120,41 +120,27 @@ body{
 .footerTwo{
     display: flex;
     align-items: center;
-    height: 5vh;
+    height: 4.5vh;
     color: gray;
-    border-bottom: 1px solid lightgray;
     padding-left: 30px;
+}
+
+.footerTwo{
+    align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 
-.footerTwo .div1{
-    width: 50%;
-}
-
-.footerTwo .div1 ul{
-    width: 50%;
+.footerTwo ul{
     list-style: none;
     display: flex;
-    align-items: center;
-    height: 5vh;
     color: gray;
-    border-bottom: 1px solid lightgray;
-    padding-left: 20px;
-    justify-content: space-between;
 }
 
-.footerTwo .div2 ul{
-    width: 50%;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    height: 5vh;
-    color: gray;
-    border-bottom: 1px solid lightgray;
-    padding-left: 20px;
-    justify-content:flex-end;
+.footerTwo .second_list{
+    justify-content: flex-end;
 }
 
-.footerTwo .div2 ul li{
+.footerTwo ul li{
     margin: 10px;
 }
